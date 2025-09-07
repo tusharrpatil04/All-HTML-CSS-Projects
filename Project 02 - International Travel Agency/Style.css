@@ -1,0 +1,101 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family:"lato",sans-serif;
+    scroll-behavior:smooth;
+    background-image: url(pexels-muffin-2468773.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    /* position: sticky;
+    top: 0; */
+}
+
+.navigation ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    text-decoration: none;
+    text-align: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: 0.2s ease-in;
+}
+
+a:hover{
+    transition: 0.2s ease-in;
+    border-bottom: 3px solid palevioletred;   
+}
+
+.btn{
+    padding: 5px 15px;
+    background-color: red;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+.btn:hover{
+    transition: 0.2s ease-in;
+    background-color: blue;
+}
+
+/* nav {
+    position: sticky;
+    top: 0;
+} */
+
+.logo{
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.main{
+    display: grid;
+    place-items: center;
+    padding-top: 300px;
+    gap: 20px;
+}
+
+.main h1{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+
+.main 
+.btn{
+   background-color: red;
+   color:white;
+   /* border-radius: 0; */
+}
+
+.main 
+.btn:hover{
+   background: none;
+   border: 1px solid pink;
+   color: black;
+}
+
